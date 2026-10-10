@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website showcasing skills, projects, and contact information." />
+  <title>Aishwarya Mallari | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Aishwarya<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">COMPUTER SCIENCE ENGINEERING STUDENT</p>
+        <h1>Hello, I'm <span>Aishwarya Mallari</span></h1>
+        <p class="intro">I enjoy building useful, user-friendly web experiences and learning new technologies. This portfolio showcases my skills, projects, and learning journey.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore My Work</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Portfolio introduction card">
+        <div class="avatar">AM</div>
+        <h2>Curious learner. Future developer.</h2>
+        <p>HTML · CSS · JavaScript</p>
+        <div class="mini-stats">
+          <div><strong>3</strong><span>Core skills</span></div>
+          <div><strong>2+</strong><span>Projects to grow</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-panel">
+        <p>I am a Computer Science Engineering student interested in software development, web technologies, and solving real-world problems. I am improving my skills by building projects and learning through hands-on practice.</p>
+        <p>My goal is to create accessible, responsive applications and keep growing as a developer.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I USE</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card"><span class="skill-icon">⌘</span><h3>HTML</h3><p>Semantic page structure</p></article>
+        <article class="skill-card"><span class="skill-icon">✦</span><h3>CSS</h3><p>Responsive layouts and styling</p></article>
+        <article class="skill-card"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Interactive web features</p></article>
+        <article class="skill-card"><span class="skill-icon">↗</span><h3>GitHub</h3><p>Version control and sharing code</p></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">RECENT WORK</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-art art-blue"><span>01</span><div class="art-symbol">⌁</div></div>
+          <div class="project-content">
+            <p class="project-type">WEB DEVELOPMENT</p>
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive website to introduce me, highlight my skills, and present my projects.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-violet"><span>02</span><div class="art-symbol">▦</div></div>
+          <div class="project-content">
+            <p class="project-type">STUDENT PROJECT</p>
+            <h3>Smart Fee Installment Tracking</h3>
+            <p>A student-focused concept for viewing fee payments, installment due dates, and payment notifications.</p>
+            <div class="tags"><span>UI Design</span><span>Web App</span><span>In Progress</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-green"><span>03</span><div class="art-symbol">◎</div></div>
+          <div class="project-content">
+            <p class="project-type">LEARNING PROJECT</p>
+            <h3>JavaScript Practice Lab</h3>
+            <p>A collection of small exercises to practise DOM events, form validation, and interactive components.</p>
+            <div class="tags"><span>JavaScript</span><span>Practice</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="note">Tip: Replace or update these project descriptions to match your actual work before submitting.</p>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-panel">
+        <div><h3>Have a project or opportunity?</h3><p>I'd be happy to connect and learn from new opportunities.</p></div>
+        <div class="contact-links">
+          <!-- Replace the example email and GitHub URL with your real details. -->
+          <a class="button primary" href="mailto:your.email@example.com">Email Me</a>
+          <a class="button secondary" href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub Profile ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><p>© <span id="year"></span> Aishwarya Mallari</p><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
